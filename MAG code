@@ -1,0 +1,15 @@
+""" 
+The objective of this code is to determine wether the user
+meets the criteria to do certain actions and totally not stealing 
+their identeties ;)
+"""
+
+#user input question
+fname_input = input("What is your first name? : ")
+lname_input = input("what is your last name? : ")
+ 
+month_input = input("What is you month of birth (number)? : ")
+day_input = input("What is the day of your birth? : ")
+year_input = input("What is your year of birth? : ")
+date_input = input("What is todays date? : ")
+birth_date = print(month_input "/" day_input "/" year_input)
